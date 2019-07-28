@@ -6,16 +6,33 @@
 .imgpart1 IMG {
       height: 400px;
       width: 400px;
-      margin: 0px 0px auto auto;
+      margin: 50px 200px auto auto;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
       
-   .imgpart1 IMG {
+   .imgpart1 IMG { 
      
-      height: 700px;
-      width: 700px;
+      height: 600px;
+      width: 600px;
        }
  }
 
+ @media only screen and (max-width: 900px) {
+      
+      .imgpart1 IMG { 
+            margin: 0px 50px auto auto;
+         height: 400px;
+         width: 400px;
+          }
+    }
+
+ @media only screen and (max-width: 780px) {
+      
+      .imgpart1 IMG { 
+            margin: 50px 140px auto auto;
+         height: 300px;
+         width: 300px;
+          }
+    }
 
 
