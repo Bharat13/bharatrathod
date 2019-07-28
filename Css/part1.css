@@ -475,4 +475,25 @@
     }
     
    }
+
+   @media only screen and (max-width: 450px) {
+    .typefont{
+   
+       font-size: 20px;
+       margin: auto auto auto 220px;
+     
+     }
+     .containerQ .boxQ {
+      width: 860px;
+      height: 250px;      
+    }
+
+     .containerQ .boxQ .title h1 {
+     
+      font-size: 25px;
+      margin: auto auto auto 220px;
+      
+    }
+    
+   }
 /*# sourceMappingURL=part1.css.map */

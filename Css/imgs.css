@@ -7,6 +7,7 @@
       height: 400px;
       width: 400px;
       margin: 50px 200px auto auto;
+      position: relative;
 }
 @media only screen and (min-width: 1400px) {
       
@@ -34,5 +35,12 @@
          width: 300px;
           }
     }
-
+    @media only screen and (max-width: 400px) {
+      
+      .imgpart1 IMG { 
+            margin: 50px 230px auto auto;
+         height: 180px;
+         width: 180px;
+          }
+    }
 
