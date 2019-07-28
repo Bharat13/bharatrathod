@@ -1,0 +1,21 @@
+.imgpart1 {
+
+      background-color: ;
+}
+
+.imgpart1 IMG {
+      height: 400px;
+      width: 400px;
+      margin: 0px 0px auto auto;
+}
+@media only screen and (min-width: 1200px) {
+      
+   .imgpart1 IMG {
+     
+      height: 700px;
+      width: 700px;
+       }
+ }
+
+
+
