@@ -222,4 +222,31 @@ p {
   .aside-right {
     width: 60%;
   }
+
+
+}
+
+@media (max-width: 992px) {
+ 
+  
+
+  .bar {
+    width: 40px;
+    height: 10px;
+    margin: 5px auto;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .aside-anchor {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .bar {
+    width: 30px;
+    height: 7px;
+    margin: 3px auto;
+  }
 }
