@@ -1,0 +1,45 @@
+.imgpart1 {
+
+}
+
+.imgpart1 IMG {
+      height: 400px;
+      width: 400px;
+      margin: 50px 200px auto auto;
+      position: relative;
+}
+@media only screen and (min-width: 1400px) {
+      
+   .imgpart1 IMG { 
+     
+      height: 600px;
+      width: 600px;
+       }
+ }
+
+ @media only screen and (max-width: 900px) {
+      
+      .imgpart1 IMG { 
+            margin: 0px 50px auto auto;
+         height: 400px;
+         width: 400px;
+          }
+    }
+
+ @media only screen and (max-width: 780px) {
+      
+      .imgpart1 IMG { 
+            margin: 50px 140px auto auto;
+         height: 300px;
+         width: 300px;
+          }
+    }
+    @media only screen and (max-width: 400px) {
+      
+      .imgpart1 IMG { 
+            margin: 50px 230px auto auto;
+         height: 180px;
+         width: 180px;
+          }
+    }
+
